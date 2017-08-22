@@ -1,3 +1,7 @@
+- name:  Interface font family
+  url:   /interface/
+  descr: A font family for highly legible text on computer screens
+
 - name:  FFysics
   url:   /fun/ffysics
   descr: Fun little physics simulation with the Figma icon
