@@ -2,14 +2,14 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Rasmus Andersson</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Kewde</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" media="all" href="/res/screen.css?v={{ build_version }}" type="text/css">
-    <link rel="alternate" type="application/atom+xml" title="Rasmus Andersson" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="Kewde" href="/atom.xml">
     <link rel="shortcut icon" href="/favicon.ico?v={{ build_version }}">
     <link rel="icon" type="image/svg+xml" sizes="any" href="/res/icon/icon.svg?v={{ build_version }}">
     <link rel="apple-touch-icon" href="/res/icon/icon-256.png?v={{ build_version }}">
@@ -35,7 +35,7 @@
       <meta name="twitter:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
-      <meta name="description" content="Ramblings by Rasmus Andersson">
+      <meta name="description" content="Ramblings by Kewde">
     {% endif %}
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
@@ -57,9 +57,8 @@
   </head>
   <body{% if page.wide_layout %} class="wide"{% endif %}>
     <header{% unless page.date %} class="main"{% endunless %}>
-      <h1 class="logo"><a href="/"><img src="/res/icon/icon.svg" width="32" height="32"></a></h1>
+      <h1 class="logo"><a href="/"><img src="/res/icon/science.svg" width="32" height="32"></a></h1>
       <ul class="navigation">
-        <li><a href="//rsms.tumblr.com/" title="A selection of recent photography">Photography</a></li>
         <li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
         <!-- <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li> -->
         <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
@@ -77,7 +76,7 @@
     {% endunless %}
     
     {% include highlight.html %}
-    {% include analytics.html %}
     <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </body>
 </html>
