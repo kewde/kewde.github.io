@@ -1,65 +1,55 @@
 ==================================================================
-https://keybase.io/rsms
+https://keybase.io/kewde
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of http://rsms.me
-  * I am rsms (https://keybase.io/rsms) on keybase.
-  * I have a public key with fingerprint 4128 0744 D846 6B9C E653  66A6 2FDF 7408 FB7B 27B6
+  * I am an admin of https://kewde.github.io
+  * I am kewde (https://keybase.io/kewde) on keybase.
+  * I have a public key ASC7GvAhTbx5l9AIUdKD43uTNXIUhD2p6xPp5TWRXb4-KQo
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "41280744d8466b9ce65366a62fdf7408fb7b27b6",
-            "host": "keybase.io",
-            "key_id": "2fdf7408fb7b27b6",
-            "uid": "1981fb1d8297f668d8b939d174270a00",
-            "username": "rsms"
-        },
-        "service": {
-            "hostname": "rsms.me",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0120bb1af0214dbc7997d00851d283e37b93357214843da9eb13e9e535915dbe3e290a",
+      "host": "keybase.io",
+      "kid": "0120bb1af0214dbc7997d00851d283e37b93357214843da9eb13e9e535915dbe3e290a",
+      "uid": "5f461b0e34f92ef347a8c7c6f0dc0219",
+      "username": "kewde"
     },
-    "ctime": 1395946053,
-    "expire_in": 157680000,
-    "prev": "63573b0f3492e1dfb88771e8e04de178340d0e1fcd5fef51ff56f415f1d1f6b3",
-    "seqno": 3,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1509055937,
+      "hash": "00ab114781cdbb5c20db01a0ca2e1b3bf50ac3d41bb9c2639c4b1c2ecb7d80c15c1510c3334be460916b59148ad358a0183ab7e29147abd27368d466d45212b4",
+      "hash_meta": "0e00c56dfbcf7f05beb75e404193e6258389d820ef4621a0eed15f060f95870a",
+      "seqno": 1634926
+    },
+    "service": {
+      "hostname": "kewde.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1509055946,
+  "expire_in": 504576000,
+  "prev": "c2b5f1c2aa54e950c0292d49d3cd85f34be54057be25a189d6c3b99f2bcb1a0e",
+  "seqno": 6,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.1.1
-Comment: https://keybase.io/crypto
-
-yMHoAnicbZFtSBRbHMZ3Nd82lcgCC0oYTOqy2szO+4px04LA++FivpQtrTM75+wO
-tjPbzKwlm3TxEpKlN7bULBCKkjRJ6ot+0cQkKilURNoS9YrCZrc0LNELgmekoA/N
-l3Pm+f+e5+HwH0qJtdisvbUH5l0lif9ahweiQctxSjsawkRVqsacIawSbB5QVrxA
-C2iyYmBOjCIcHM5SlMRRDCPyHsDQJMMIjANKkKVwDoqs6GBFBrNjPlU3HShGFHSQ
-I6tIQz9uWULqL/jg5oDgOQKKhMQ5eBYyDCdxIk/yEsFSDhYXcNwEdaApgh8gWtP9
-OlZjx5BSJXuQEtqs/Wmag252LKCphupRzyDRZxgBp+kxqgMmdA6I7u92tygrEnou
-MlQBTZdVBXMSiPQYsplHkDzNUwxOk3YMnA/IGnDLJkGzDIejz6wBVSiSIWmWFHFI
-UrwDEBIUOY5lCcABnJIAwXIkhUs4IKBHoiGANAEhzUCKoCEhEZARSdSvg7OKijlR
-kyF4UaQuexXBCGoAqxkccG2xWG2W+LgYc2EWW9K2H2v0PklYz+ifSnL17pys80+N
-t62f9l2sXJ04+OnIl7lXrZPFs+9e7GuUQoduDuwZzv2t527xVPvz/Obo7yPRmGh5
-6X9yxNpekB48ljnTX1G4FNZi60uuNs0+GAyk79au+Pq7W1bqPEXTyx1Dl29MZMht
-5d2Rz/NxFX3de+/Ndfy5+rQoawV6I2W72tOcpxYzFTW3cyy+t3qxoXi6MTu2+f4f
-J1M+Lry+ZXmZH37W1XVpLFxxotDvawrlhYX/3y5/SL6Ter3zYZSsH33/7e8LO1K3
-jteuZtwuOPy4by3LlvjGn53c6hzdvw6/LrQ0SHnX0mdq1ib/ipROp5XFb0+o1Ed0
-4Z8l16OeDUC1GA0=
-=9weq
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEguxrwIU28eZfQCFHSg+N7kzVyFIQ9qesT6eU1kV2+PikKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYmIxYWYwMjE0ZGJjNzk5N2QwMDg1MWQyODNlMzdiOTMzNTcyMTQ4NDNkYTllYjEzZTllNTM1OTE1ZGJlM2UyOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmIxYWYwMjE0ZGJjNzk5N2QwMDg1MWQyODNlMzdiOTMzNTcyMTQ4NDNkYTllYjEzZTllNTM1OTE1ZGJlM2UyOTBhIiwidWlkIjoiNWY0NjFiMGUzNGY5MmVmMzQ3YThjN2M2ZjBkYzAyMTkiLCJ1c2VybmFtZSI6Imtld2RlIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA5MDU1OTM3LCJoYXNoIjoiMDBhYjExNDc4MWNkYmI1YzIwZGIwMWEwY2EyZTFiM2JmNTBhYzNkNDFiYjljMjYzOWM0YjFjMmVjYjdkODBjMTVjMTUxMGMzMzM0YmU0NjA5MTZiNTkxNDhhZDM1OGEwMTgzYWI3ZTI5MTQ3YWJkMjczNjhkNDY2ZDQ1MjEyYjQiLCJoYXNoX21ldGEiOiIwZTAwYzU2ZGZiY2Y3ZjA1YmViNzVlNDA0MTkzZTYyNTgzODlkODIwZWY0NjIxYTBlZWQxNWYwNjBmOTU4NzBhIiwic2Vxbm8iOjE2MzQ5MjZ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoia2V3ZGUuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzQifSwiY3RpbWUiOjE1MDkwNTU5NDYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYzJiNWYxYzJhYTU0ZTk1MGMwMjkyZDQ5ZDNjZDg1ZjM0YmU1NDA1N2JlMjVhMTg5ZDZjM2I5OWYyYmNiMWEwZSIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEUqBHYoIlfTiJ/skp1iIkHAfejz5IRbC4QqZFUVvSHjx/0TG9jQJTfTrJUzP52EOfBHiFF5V+xJj5Fn1I83cAmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAycfqc28WMbS2QmkXvw8lpqq2rzJOpYDHT0p/8mXdXM6N0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/rsms
+View my publicly-auditable identity here: https://keybase.io/kewde
 
 ==================================================================
