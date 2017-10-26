@@ -4,24 +4,24 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kewde</title>
-  <link href="http://rsms.me/atom.xml" rel="self"/>
-  <link href="http://rsms.me/"/>
+  <link href="https://rsms.me/atom.xml" rel="self"/>
+  <link href="https://rsms.me/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://rsms.me/</id>
+  <id>https://kewde.github.io/</id>
   <author>
     <name>Kewde</name>
-    <email>rasmus@notion.se</email>
+    <email>kewde@particl.io</email>
   </author>
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="http://rsms.me{{ post.url }}"/>
+    <link href="https://kewde.github.io{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://rsms.me{{ post.id }}</id>
+    <id>https://kewde.github.io{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
     <author>
       <name>Kewde</name>
-      <uri>http://rsms.me/about/</uri>
+      <uri>https://kewde.github.io/about/</uri>
     </author>
   </entry>
   {% endfor %}
