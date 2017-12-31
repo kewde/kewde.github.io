@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-12-31 09:00:00 UTC
-title: Particl - a private and decentralized marketplace
+title: Particl - A Private and Decentralized Marketplace
 description: A presentation about Particl and how we intend to develop a more private and decentralized marketplace for the world.
 ---
 
