@@ -5,9 +5,8 @@ title: Particl - A Private and Decentralized Marketplace
 description: A presentation about Particl and how we intend to develop a more private and decentralized marketplace for the world.
 ---
 
-
-# Presentation
+![/res/presentation/presentation-preview.png](/res/presentation/presentation-preview.png)
 
 I did a presentation on Particl, the slides are available in pdf below.
 
-[Particl presentation](/res/particl.pdf)
+[Download particl.pdf](/res/presentation/particl.pdf)
