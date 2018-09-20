@@ -19,7 +19,7 @@ The projects I've been working on are
 - [GitHub](https://github.com/kewde) — kewde's code
 
 ### GPG
-
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBFqQgdABCAC7ik6LaWxpU6wS5bTOCWaJf9/2Tgnd9zqeMmX4yILsbYi8mS0Y
@@ -49,3 +49,4 @@ RL5Ht966jHAcTZdGimxfLCay8SCVZcaOEoj04bIfpwtlpGEXFVk4SJ61xhLVIHnR
 CmPcQKGXwjrYnFlktkAUCznPO2nB4ud90x21vg==
 =nxEq
 -----END PGP PUBLIC KEY BLOCK-----
+```
