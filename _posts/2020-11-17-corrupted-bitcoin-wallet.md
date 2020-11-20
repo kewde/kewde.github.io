@@ -7,7 +7,7 @@ description: Extracting private keys from a corrupted Bitcoin wallet.
 
 # The Story
 
-A friend of a relative had brought in their Macbook Air, and aske me to repair it.
+A friend of a relative had brought in their Macbook Air, and kindly asked me to repair it.
 This required me to download the latest MacOS for which I didn't have enough space for.
 In a desperate attempt, I decided to clean up my external hard drive, removing files that were taking up too much storage.
 
