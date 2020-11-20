@@ -2,18 +2,18 @@
 layout: post
 date: 2020-11-17 09:00:00 UTC
 title: Corrupted Bitcoin Wallet + 30 Lines Of Code = 3000 USD
-description: .
+description: Extracting private keys from a corrupted Bitcoin wallet.
 ---
 
 # The Story
 
-A friend of a relative had brought in there Macbook Air, which I was asked to repair.
-This required me to download the latest MacOS and I didn't have space left on that computer.
+A friend of a relative had brought in their Macbook Air, and aske me to repair it.
+This required me to download the latest MacOS for which I didn't have enough space for.
 In a desperate attempt, I decided to clean up my external hard drive, removing files that were taking up too much storage.
 
 This is the exact moment that karma had found its way to my 4 AM adventure to fix this MacBook.
 
-To my surprise I found a folder named "Btc" in my folder contain television shows. 
+To my surprise I found a folder named "Btc", where I stored episode of television shows. 
 Apparently it has been there since 2015 - this must have been my very first wallet!
 
 Sadly, the wallet wouldn't open in bitcoin core, it has been corrupted.
@@ -28,7 +28,7 @@ Database environment corrupt; the wrong log files may have been removed or incom
 ```
 
 Therefore I was forced to salvage the wallet somehow.
-The `Bitcoin Core` has an option `-salvagewallet` which did not appear to help.
+The `Bitcoin Core` software has an option `-salvagewallet` which did not appear to help.
 
 A bit of googling around and I found out that uncompressed private keys are prepended with `01 01 04 20`.
 Time to take a quick scroll through the file in `HxD`, a popular hex editor!
