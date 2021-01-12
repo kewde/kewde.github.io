@@ -5,7 +5,15 @@ title: MacBook Air - Hacking EFI Boot Password
 description: Additional notes on hardware hacking the boot firmware of an old MacBook Air.
 ---
 
+# The Setup
+Hooking up a bunch of wires to the motherboard of a MacBook isn't something I felt comfortable to do, especially to a machine of a friend.
+The setup looks rather horrible, and I anxiously triple checked everything before applying any current, but it worked fine in the end. 
 ![](/res/mac-efi-hack/cover.png)
+
+A quick summary of what this does:
+* Fetch the firmware from a "bootloader" chip on the motherboard
+* Manually erase the password protection with empty `FF` hex characters
+* Write out the new firmware with the erased variables to the bootloader chip
 
 # The Original Post
 
@@ -63,5 +71,8 @@ The solution is to lower the SPI Speed.
 flashrom -r read1.bin -c "MX25L3205D/MX25L3208D" -V -p linux_spi:dev=/dev/spidev0.0,spispeed=512
 ```
 
+# Note 3: Verify the chipset model
+There are a few models out there in MacBooks, mine was using a different model than the original post and therefore I had to apply some changes.
+You will have to adopt the parameters in your `flashrom` commands to accomodate for the difference.
 ![](/res/mac-efi-hack/MX25L3205D.png)
 
